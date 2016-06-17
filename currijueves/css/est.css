@@ -1,0 +1,54 @@
+body{ 
+      margin :0;  
+      height: 100%;   
+      background: #D7D5D5;
+      padding: 0;         
+      font-family: Brush Script MT ;
+      margin-top: -35px;   
+     }
+
+h1{
+  font-size: 40pt;
+  color:#35E623;
+  padding: 20px;          
+  text-align: center;     
+  }
+
+.titulo{
+                   background: #0D8B00;
+                  }
+
+.menunavegacion{
+                text-align: center;
+                }
+.menunavegacion ul{ 
+                     margin:10px;
+                     padding: 10px;
+                    }
+.menunavegacion li{ 
+                  display: inline;    
+                  }     
+
+.menunavegacion a{
+                   margin: 10px;    
+                   padding: 10px;
+                   text-decoration: none;  
+                   color: #35E623;
+                   font-size:20pt;
+                  }
+.menunavegacion .activo a,                
+.menunavegacion li:hover a {               
+                             background: #3E3C3B;
+                           }
+
+h2{text-align: center}
+p{text-align: justify;}
+
+.informacion{
+              margin :20px;
+              padding: 9px;
+              text-align: center;
+              font-family: Times New Roman;
+              border: 5px groove #84FF00;
+              font-size: 18pt;
+              }

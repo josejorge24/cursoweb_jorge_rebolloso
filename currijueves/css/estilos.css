@@ -1,0 +1,59 @@
+body{ 
+      margin :0;   /*tamaño del margen en la página*/
+      height: 100%;   /*para que body ocupe el 100% de la pantalla */
+      background: #D7D5D5;
+      padding: 0;         /*quita el margen del body*/
+      font-family: Brush Script MT ;
+      margin-top: -35px;   /*también podemos quitar pixeles o recorrer hacia el otro lado*/
+     }
+
+h1{
+  font-size: 40pt;
+  color:#FAFC72;
+  padding: 20px;          /*margen hacia dentro*/
+  text-align: center;     /*centrar texto*/
+  }
+
+.titulo_principal{
+                   background: #4F3102;
+                  }
+
+.menunavegacion{
+                text-align: center;
+                }
+.menunavegacion ul{ 
+                     margin:10px;
+                     padding: 10px;
+                    }
+.menunavegacion li{ 
+                  display: inline;    /*me muestra la lista de menunavegacion en linea*/
+                  }     
+
+.menunavegacion a{
+                   margin: 10px;    /*este me separa los elementos de mi menu*/
+                   padding: 10px;
+                   text-decoration: none;  /*quita la línea de los links*/
+                   color: #9F7400;
+                   font-size:20pt;
+                  }
+.menunavegacion .activo a,                /*para que la clase, activo no se modifique*/
+.menunavegacion li:hover a {               /*cambiar el color de algo cuando pase el mouse arriba de ello*/
+                             background: #070700;
+                           }
+.informacionp{
+              text-align: center;
+              font-size: 20pt;
+              margin: 20px;
+              border: 5px dotted #FFEF38; /*para colocar un borde en mi nombre, o en el margen pues*/
+          
+              }
+              ul{
+                list-style: none;   /*quita las bolitas de la lista*/
+                }  
+.informacionp ul {
+                  font-family: Times New Roman;
+                 }  
+.circulo{
+         align:center;
+         border-radius: 50%;    /*hace en círculo a mi imagen*/
+         }            
