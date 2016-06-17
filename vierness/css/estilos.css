@@ -1,0 +1,60 @@
+body{
+  background-color: #D5D4D6 ;
+  margin: 0;
+  padding: 0;
+  font-family: "arial black";
+
+}
+.menu{
+      background: #B31BFA;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+     }
+.menu ul{
+
+  margin: 0;
+        }
+
+.menu ul li{
+  display:inline;
+  list-style: none;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  margin: 0;
+}
+.menu ul li a{
+    padding:10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.menu ul li:hover a{              /*hover se activa cuando el mouse esté arriba del elemento*/
+  background: black;          /*cuando el mouse pase arriba, el boton cambia a negro*/
+}
+.titulo{
+background: #B31BFA;
+}
+.titulo h1{
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  padding: 15px 0;
+  padding-left: 10px;
+}
+.intro{
+  display: block;
+  width: 50%;   /*divide al 50% , es deci a la mitad, esto lo usaré en columnas*/
+  text-align: center;
+  margin:auto;  /*todo del lado izquiero es el mismo que el del derecho*/
+  padding-bottom: 35px;
+  border-bottom: 1px solid gray;
+
+  }
+.intro h2{
+
+    font-family: "AR JULIAN";
+
+}
