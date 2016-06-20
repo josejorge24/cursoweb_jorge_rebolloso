@@ -1,0 +1,98 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	position: absolute;
+	left: 15px;
+	top:9px;
+      }
+
+ h1 {
+ 	position: fixed;
+ 	text-align: center;
+ 	margin:0;
+ 	top: 0px;
+ 	font-family: "Brush Script MT";
+ 	font-size: 38pt;
+ 	color: #9C7F07 ;
+ 	border: none;
+ 	position: static;
+    }
+
+.menu {
+       text-align: center;
+       background: #93644A;
+       padding-top: 1px;
+       margin-top: 10px;
+	   }
+
+.menu ul{
+         margin:0;
+         padding: 10.5px;
+         }
+
+.menu li{
+         display: inline;
+        }
+
+.menu a{
+      margin: 8px;
+      padding: 11.5px;
+      text-decoration: none;
+      font-size: 14pt;
+      color:#EFE3B0;
+      font-family: "Times New Roman"; 
+        }
+.menu .activo a,
+.menu li:hover a{
+                  background: #EFE3B0;
+                  color: #93644A;
+                  }
+
+.info img{
+	border-bottom: 3px solid #908D8D;
+	padding-bottom:32px;
+	padding-left:50px; 
+	padding-right:50px;
+}
+.info{
+	text-align: center;
+	margin: 30px;
+	font-family: "Baskerville Old Face";
+     }
+
+.info h2{
+     	font-size: 24pt;
+        }
+
+.info p {
+	     font-size: 16pt;
+	     text-align: center;
+        }
+
+.sub img{
+	      padding-bottom:32px;
+	      padding-left:50px; 
+	      padding-right:50px;
+        }
+.sub{
+	text-align: center;
+	margin: 30px;
+	font-family: "Baskerville Old Face";
+     }
+
+.sub h2{
+     	font-size: 24pt;
+     	padding-top: 10px;
+     	padding-right: 5px;
+     	padding-left: 5px;
+        }
+
+.sub p {
+	     font-size: 16pt;
+	     text-align: center;
+	     padding-bottom: 20px;
+	     border-bottom:3px solid #908D8D;
+       }

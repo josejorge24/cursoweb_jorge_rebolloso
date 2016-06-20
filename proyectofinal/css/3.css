@@ -1,0 +1,169 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	position: absolute;
+	left: 15px;
+	top:9px;
+      }
+
+ h1 {
+ 	position: fixed;
+ 	text-align: center;
+ 	margin:0;
+ 	top: 0px;
+ 	font-family: "Brush Script MT";
+ 	font-size: 38pt;
+ 	color: #9C7F07 ;
+ 	border: none;
+ 	position: static;
+    }
+
+.menu {
+       text-align: center;
+       background: #93644A;
+       padding-top: 1px;
+       margin-top: 10px;
+	   }
+
+.menu ul{
+         margin:0;
+         padding: 10.5px;
+         }
+
+.menu li{
+         display: inline;
+        }
+
+.menu a{
+      margin: 8px;
+      padding: 11.5px;
+      text-decoration: none;
+      font-size: 14pt;
+      color:#EFE3B0;
+      font-family: "Times New Roman"; 
+        }
+.menu .activo a,
+.menu li:hover a{
+                  background: #EFE3B0;
+                  color: #93644A;
+                  } /*menu*/
+
+h2{
+  text-align: center;
+  font-size: 24pt;
+  font-family: "Baskerville Old Face";
+}
+h3{
+  text-align: right;
+  font-size: 20pt;
+  font-family: "Baskerville Old Face";
+}
+
+p {
+    text-align: center;
+  font-size: 20pt;
+  font-family: "Baskerville Old Face";
+}
+.carta{
+  margin-top: 50px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-left: -100px;
+  padding-right:-100px;
+  padding-bottom: 650px;
+  border: 4px dotted #FFF600; 
+}
+.carta  h2{
+  margin: 0px;
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-size: 30pt;
+}
+.carta ul{
+  margin: 0; 
+}
+.carta ul li{
+  font-size: 20pt;
+  list-style: none;
+}
+.carta ul p{
+  margin:0px; 
+  font-size: 10pt;
+  text-align: left;
+}
+.carta .let{
+  margin-top:650px;
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-size: 30pt;
+}
+
+.carta .uno ul{
+  margin-right:50px; 
+  margin-left: 5px;
+  float:left;
+
+}
+.carta .dos ul{
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 0;
+  float:left;
+}
+.carta img{
+  margin-top: 50px;
+  padding: 0px;
+  float: left;
+  background: red;
+}
+
+
+ .carta .comida ul{
+padding-right: 0px;
+padding-left: 10px;
+margin-top:50px;
+margin-right: 30px;
+float: right;
+}
+
+.carta .comi ul{
+margin-top:50px; 
+margin-right: 30px;
+float:right;
+}
+
+.carta .com {
+  margin-left: 50px;
+  margin-top: 150px;
+  background: gray;
+  padding: 5px;
+}
+ .carta .pos{
+  margin-top:750px;
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-size: 30pt;
+ }
+
+
+ .carta .cena ul{
+  padding: 0px;
+  margin-left: 25px;
+  margin-right: 0px;
+  margin-top: 10px;
+  float: left;
+
+ }
+ .carta .precio ul{
+  margin-left: 20px;
+  margin-right: 75px;
+  margin-top: 10px;
+  float: left;
+ }
+
+ .carta .po{
+ margin-top: 150px;   
+}
